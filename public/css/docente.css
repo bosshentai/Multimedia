@@ -1,0 +1,49 @@
+.docente-container{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+
+.docente-perfil{
+    /* background:blue; */
+
+    width: 60rem;
+    height:40rem;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius:6px;
+    overflow: hidden;
+
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    display:flex;
+}
+
+.docente-imag-perfil{
+    background:black;
+    height:15rem;
+    width:15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3rem;
+}
+
+.docente-info{
+    /* background:red; */
+    height:100%;
+    width:30rem;
+    margin-left: 2rem;
+    font-size: 30px;
+    display:flex;
+    justify-content:center;
+    align-items:left;
+    flex-direction:column;
+}

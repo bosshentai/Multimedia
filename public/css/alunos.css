@@ -1,0 +1,102 @@
+.container-alunos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-flow: column wrap;
+
+}
+
+.container-alunos-top,
+.container-alunos-bottom {
+    display: flex;
+    padding: 1rem;
+}
+
+
+
+.container-aluno {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+    position: relative;
+
+    width: 10rem;
+    height: 20rem;
+
+
+    margin-right: 1rem;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+.imag-perfil {
+    /* background: black; */
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-aluno p {
+    margin-top: 1rem;
+
+}
+
+.container-aluno-bottom {
+
+    position: absolute;
+    bottom:0px;
+    vertical-align: bottom;
+
+    width: 100%;
+    height: 3rem;
+
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aluno-info{
+    /* background: red; */
+    margin-top:1rem;
+    width:100%;
+}
+
+.aluno-info p{
+    padding-left: 1rem;
+    /* margin-left:1rem; */
+}
+
+.fas{
+    display: block;
+    width: 30px;
+    height: 30px;
+    /* background: url(../image/icons/codepen.svg); */
+    /* background: red; */
+}
+
+.imag-icon{
+    width:100%;
+    height:100%;
+}
+
