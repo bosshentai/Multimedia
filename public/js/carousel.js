@@ -1,9 +1,10 @@
 var slideIndex = 1;
+showSlides(slideIndex);
 
 function plusSlide(n) {
   showSlides((slideIndex += n));
 
-  console.log("here " + n);
+  // console.log("here " + n);
 }
 
 function showSlides(n) {
