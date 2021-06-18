@@ -72,6 +72,8 @@
 
     display: flex;
 
+    background-color:rgba(0, 173, 249,0.1) ;
+
     justify-content: space-around;
     align-items: center;
 }

@@ -13,11 +13,10 @@
     <link rel="stylesheet" href="./public/css/docente.css">
     <link rel="stylesheet" href="./public/css/animation.css">
     <link rel="stylesheet" href="./public/css/video.css">
+    <link rel="stylesheet" href="./public/css/carousel.css">
 </head>
 
 <body>
-
-
     <section>
         <nav>
             <div class="container-itens animated-up">
@@ -40,8 +39,27 @@
     </section>
     <section id="inicio" class="sectionSize">
         <div class="title-container animated-up">
-            <h1><strong> Laboratorio Multimedia </strong></h1>
+            <!-- <h1><strong> Laboratorio Multimedia </strong></h1> -->
+            <div class="slideshow-container">
+                    <div class="slides-container fade">
 
+                        <img class="imag-carousel" src="./public/image/imag1.jpg">
+
+                    </div>
+
+                    <div class="slides-container fade">
+                        <img class="imag-carousel" src="./public/image/imag2.jpg">
+                    </div>
+
+                    <a class="prev"
+                    onclick="plusSlide(-1)">
+                        &#10094;
+                    </a>
+                    <a class="next"
+                    onclick="plusSlide(1)">
+                        &#10095;
+                    </a>
+            </div>
         </div>
     </section>
     <section id="alunos" class="alunos sectionSize animated-up">
@@ -54,16 +72,21 @@
                         <p>idade: 19</p>
                     </div>
                     <div class="container-aluno-bottom">
-                        <i class="fas icon-git">
-                            <img class="imag-icon" src="public/image/icons/github.svg" />
-                        </i>
+                        <a href="">
+                            <i class="fas icon-git">
+                                <img class="imag-icon" src="public/image/icons/github.svg" />
+                            </i>
+                        </a>
+                        <a href="">
                         <i class="fas icon-code">
                             <img class="imag-icon" src="public/image/icons/codepen.svg" />
                         </i>
+                    </a>
+                    <a href="https://www.instagram.com/alex_monteiro_10/">
                         <i class="fas icon-instagram">
                             <img class="imag-icon" src="public/image/icons/instagram.svg">
                         </i>
-
+                    </a>
                     </div>
                 </div>
                 <div class="container-aluno">
@@ -92,15 +115,21 @@
                         <p>idade:27</p>
                     </div>
                     <div class="container-aluno-bottom">
+                        <a href="https://github.com/bosshentai">
                         <i class="fas icon-git">
                             <img class="imag-icon" src="public/image/icons/github.svg" />
                         </i>
+                    </a>
+                    <a href="https://codepen.io/hern-ni-baptista">
                         <i class="fas icon-code">
                             <img class="imag-icon" src="public/image/icons/codepen.svg" />
                         </i>
+                    </a>
+                    <a href="https://www.instagram.com/bosshentai/">
                         <i class="fas icon-instagram">
                             <img class="imag-icon" src="public/image/icons/instagram.svg">
                         </i>
+                    </a>
                     </div>
                 </div>
                 <div class="container-aluno">
@@ -116,9 +145,11 @@
                         <i class="fas icon-code">
                             <img class="imag-icon" src="public/image/icons/codepen.svg" />
                         </i>
+                        <a href="https://www.instagram.com/iven__lopez/">
                         <i class="fas icon-instagram">
                             <img class="imag-icon" src="public/image/icons/instagram.svg">
                         </i>
+                    </a>
                     </div>
                 </div>
                 <div class="container-aluno">
@@ -241,7 +272,7 @@
                 <img class="docente-imag-perfil" src="public/image/perfil/manuel.jpg">
                 <div class="docente-info">
                     <p><strong>Docente:</strong> Manuel Pinheiro</p>
-                    <p><strong>Coordenador:</strong> Engenharia renováveis  </p>
+                    <p><strong>Coordenador:</strong> Engenharia renováveis </p>
                     <p><strong>idade:</strong> 56</p>
                 </div>
             </div>
@@ -253,9 +284,14 @@
             <!-- <video controls="none" loop="true" autoplay="autoplay" muted>
                 <source src="https://youtu.be/EFqoN_MOAAU" type="video/mp4">
             </video> -->
-            <iframe class="video-size"  src="https://www.youtube.com/embed/EFqoN_MOAAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video-size" src="https://www.youtube.com/embed/EFqoN_MOAAU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </section>
+
+    <script src="./public/js/carousel.js"></script>
 </body>
 
 </html>
